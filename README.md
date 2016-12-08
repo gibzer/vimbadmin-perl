@@ -26,7 +26,8 @@ Usage:
 
 ## Additional scripts:
 
-    - find wrong aliases.
+    - find wrong aliases;
+    - update mailbox size.
 
 find_wrong_aliases.pl finds wrong aliases which are pointing to not existent mailbox or alias.
 
@@ -37,3 +38,10 @@ Usage:
 Options:
 
     -f Prints info about all aliases instead of only wrong ones.
+
+update_mailbox_size.pl updates all mailboxes size. If possible, it uses 'maildirsize' file instead of just using 'du'.
+You may choose what type of 'du' to use: Perl (requires Filesys::DiskUsage module) or system (see script).
+
+Usage:
+
+    ./update_mailbox_size.pl
