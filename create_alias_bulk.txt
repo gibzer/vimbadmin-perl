@@ -1,0 +1,3 @@
+# ALIAS	ALIAS_TO[,ALIAS_TO_1...]
+#alias1@domain.com	alias_to_1@domain.com,alias_to_2@domain.com
+#alias2@domain.com	alias_to_3@domain.com

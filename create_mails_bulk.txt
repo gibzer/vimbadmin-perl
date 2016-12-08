@@ -1,0 +1,2 @@
+# USERNAME	PASSWORD	NAME	QUOTA (in bytes)
+#username@domain.com	password	name	0
